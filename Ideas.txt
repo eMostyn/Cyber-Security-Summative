@@ -1,0 +1,65 @@
+Passwords not encrypted
+Access Rights
+Open port
+XSS
+Bootloader
+Link Vulnerability
+Path Traversal
+SQL Injection
+Inference Attacks
+Buffer overflow
+Weak Passwords
+Same Passwords 
+
+
+Notes
+-	Alice
+"confidential.txt" - "This is my secret diary. It would be terrible if anyone other than me read this. Mark is so annoying! I really love Tux!"
+Creepy note in draw "I'm going to kill you tonight"	
+-	Mark
+"confidential.txt" - "This is my secret diary. It would be terrible if anyone other than me read this. I really love Alice."
+Mark's Desktop "newspaper.jpg" "The bleeder strikes again", "Murder, 19yo, small puncture wounds
+-	Jess
+Encrypted confidential.txt, encrypted selfie (Jess with booze)
+The killer
+YT link with killing of mark
+Decrypted confidential 
+-	Tux
+"confidential.txt" - "This is my secret diary. It would be terrible if anyone other than me read this. I am not really a penguin"
+
+
+Jess killed Karl because he saw her place the note in Alice's desk. Killing Alice because Mark loves Alice not her. Jess is actually called Charlotte Rebeled 
+
+Inference?
+-	Countries List
+Uk 
+China
+Egypt
+USA
+UK
+France
+UK
+
+-	List users
+Chris
+Anna
+Mark
+Jess
+Alice
+Gregoire
+Karl
+
+
+Passwords
+Root
+-	12345678
+User
+-	Password
+Mark
+-	Monkey
+Alice
+-	letmein
+Jess
+-	starwars
+Groot
+-	thunder

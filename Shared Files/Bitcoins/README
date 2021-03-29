@@ -1,0 +1,6 @@
+This tool stores the private company bitcoin wallet.
+Only the CEO is allowed to access this.
+To use this tool, open the Sakura terminal and type:
+
+cd Desktop/Bitcoins/
+./Bitcoins

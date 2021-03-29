@@ -1,0 +1,127 @@
+body {margin: 0;}
+
+.hidden {display: none; }
+
+ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+ul.sidenav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.sidenav li a.active {
+    background-color: #555;
+    color: white;
+}
+
+ul.sidenav li a:hover:not(.active) {
+    background-color: #aaa;
+    color: white;
+}
+
+ul.sidenav li div {
+  display: none;
+}
+
+div.content {
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 100px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 5px;
+    background: #f1f1f1;
+    width: 100%;
+}
+
+tr.transpose {
+    display: block;
+    float: left;
+}
+
+th.transpose, td.transpose {
+    display: block;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover{background-color: #fafafa}
+    
+.private {
+    border-radius: 10px;
+    background: rgb(199, 56, 56);
+    padding: 7px; 
+}
+    
+.public {
+    border-radius: 10px;
+    background: rgb(56, 56, 199);
+    padding: 7px; 
+}
+
+@media screen and (max-width: 900px) {
+    ul.sidenav {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    ul.sidenav li a {
+        float: left;
+        padding: 15px;
+    }
+    div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+    ul.sidenav li a {
+        text-align: center;
+        float: none;
+    }
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+  <!-- Navigation Links -->
+  <ul class="sidenav">
+    <li data-index="home">
+      <a class="active" href="#home">Home</a>
+    </li>
+    <li data-index="shop">
+      <a href="#shop">Shop</a>
+    </li>
+    <li data-index="chat">
+      <a href="#chat">Chat</a>
+    </li>
+    <li data-index="stats">
+      <a href="#stats">Stats</a>
+    </li>
+    <li data-index="login">
+      <a href="#login">Login</a>
+    </li>
+  </ul>
+
+  <!-- Content -->
+  <div class="content" id="home">
+    <h2>Welcome to Durhamazon!</h2>
+    <p>The most secure shopping platform in the world.</p>
+	<p>"Unhackable" - John McAfee.</p>
+    <p>We pride ourselves in open user demographics and our public chat area for social interactions.</p>
+    <p>There is also a private area where you can login and see your confidential order information.</p>
+  </div>
+  <div class="content hidden" id="shop">
+	<h2>Shopping</h2>
+	<p>The following items are currently for sale:</p>
+	<table>
+	  <tr><th>Id</th><th>Item</th><th>Price</th><th>Stock</th></tr>
+      <tr><td>1</td><td>Costume</td><td>&pound;55.25</td><td>7</td></tr>
+      <tr><td>2</td><td>Planck Keyboard</td><td>&pound;180.74</td><td>9</td></tr>
+      <tr><td>3</td><td>Red Pen</td><td>&pound;19.99</td><td>532</td></tr>
+      <tr><td>4</td><td>Diamond Ring</td><td>&pound;5000.00</td><td>2</td></tr>
+      <tr><td>5</td><td>Wine</td><td>&pound;30.00</td><td>28</td></tr>
+      <tr><td>6</td><td>Durian Fruit</td><td>&pound;25.00</td><td>14</td></tr>
+      <tr><td>7</td><td>Netvue 1080p</td><td>&pound;39.97</td><td>3</td></tr>
+	</table>
+    <p>Please call us to place an order.</p>
+  </div>
+  <div class="content hidden" id="chat">
+    <p>Public Messages</p>
+    <div id="result" style="display:block; max-height:144px; overflow-y:scroll;">Write some messages here</div>
+    <p>Send Chat Message</p>
+    <input type="text" id="nameInput" placeholder="Type your full name">
+    <textarea id="messageInput" style="height:100px;" placeholder="Type a message"></textarea>
+    <input type="submit" value="Refresh" id="refresh">
+    <input type="submit" value="Submit" id="submit">
+    <br>
+  </div>
+  <div class="content hidden" id="stats">
+	<p>We are happy to share our public user demographics in order to make the world a better place.
+       Don't worry, we have anonymised all our user information so that it's impossible to work
+       out who has bought what items from our shop. That would be confidential information.</p>
+    <input type="submit" value="List users" id="users">
+	<input type="submit" value="View user countries" id="countries">
+	<input type="submit" value="View spending by country" id="popularity">
+    <br>
+    <br>
+    <div class="public hidden" id="public"></div>
+  </div>
+  <div class="content hidden" id="login">
+    <h2>Private Member Area</h2>
+    <p>This area contains your confidential information and is restricted to our members.</p>
+	<input type="text" id="usernameInput" placeholder="Enter your username name">
+	<input type="text" id="passwordInput" placeholder="Enter your password">
+    <input type="submit" value="Login" id="loginbtn">
+    <br>
+    <br>
+    <div class="private hidden" id="private"></div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+This tool allows normal users to enable periodic
+backups of the Durhamazon database into /root/backups
+
+To use this tool, open the Sakura terminal and type:
+
+cd Desktop/Database/
+./Backup Database.db
